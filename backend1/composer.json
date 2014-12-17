@@ -3,19 +3,9 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
+	"type": "project",
 	"require": {
-		"laravel/framework": "4.2.*",
-		"illuminate/support": "4.2.*",
-		"jasonlewis/basset": "dev-master",
-		"zizaco/confide": "dev-master",
-		"illuminate/support": "5.0.x-dev",
-		"way/generators": "dev-master",
-		"leafo/lessphp": "v0.4.0",
-		"twbs/bootstrap": "3.0.*",
-		"natxet/CssMin": "dev-master",
-        "lmammino/jsmin4assetic": "1.0.*",
-        "bllim/datatables": "*",
-        "robclancy/presenter": "1.2.*"
+		"laravel/framework": "4.2.*"
 	},
 	"autoload": {
 		"classmap": [
@@ -29,12 +19,11 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
+			"php artisan clear-compiled",
 			"php artisan optimize"
 		],
-		"pre-update-cmd": [
-			"php artisan clear-compiled"
-		],
 		"post-update-cmd": [
+			"php artisan clear-compiled",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [
@@ -44,5 +33,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "stable"
 }

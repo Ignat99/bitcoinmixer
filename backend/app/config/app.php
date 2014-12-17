@@ -106,6 +106,7 @@ return array(
 		'Illuminate\Auth\Reminders\ReminderServiceProvider',
 		'Illuminate\Foundation\Providers\RouteListServiceProvider',
 		'Illuminate\Database\SeedServiceProvider',
+		'Illuminate\Support\ServiceProvider',
 		'Illuminate\Foundation\Providers\ServerServiceProvider',
 		'Illuminate\Session\SessionServiceProvider',
 		'Illuminate\Foundation\Providers\TinkerServiceProvider',
