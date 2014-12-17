@@ -7,6 +7,7 @@
 		"laravel/framework": "4.0.*",
 		"jasonlewis/basset": "dev-master",
 		"zizaco/confide": "dev-master",
+		"illuminate/support": "5.0.x-dev",
 		"way/generators": "dev-master",
 		"leafo/lessphp": "v0.4.0",
 		"twbs/bootstrap": "3.0.*",

@@ -115,7 +115,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		 /* Additional Providers */
-		'Zizaco\Confide\ConfideServiceProvider', // Confide Provider
+		'Zizaco\Confide\ServiceProvider', // Confide Provider
         'Basset\BassetServiceProvider', // Better Asset Management
         'Bllim\Datatables\DatatablesServiceProvider', // Datatables
         'Way\Generators\GeneratorsServiceProvider',
