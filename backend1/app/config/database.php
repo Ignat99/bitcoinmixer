@@ -46,6 +46,24 @@ return array(
 
 	'connections' => array(
 
+/*
+    |--------------------------------------------------------------------------
+    | MongoDB Databases
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    		'mongodb' => array(
+
+        		'default' => array(
+            			'host'     => '127.0.0.1',
+            			'port'     => 27017,
+            			'database' => 'salon',
+            			'username'     => 'root',
+            			'password'     => '123456',
+        		),
+    		),
+
 		'sqlite' => array(
 			'driver'   => 'sqlite',
 			'database' => __DIR__.'/../database/production.sqlite',
@@ -68,7 +86,7 @@ return array(
 			'host'     => 'localhost',
 			'database' => 'forge',
 			'username' => 'forge',
-			'password' => '',
+			'password' => '123',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
